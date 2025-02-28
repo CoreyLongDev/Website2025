@@ -1,0 +1,105 @@
+#backgroundImage {
+    background-image: url("./img/FourPeaksPark.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+  #profilePicture {
+    width: calc(150px + 10vw);
+    height: calc(150px + 10vw);
+    max-width: 250px;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center 10%;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hero-section {
+    min-height: 50vh;
+  }
+  #nameLogo {
+    color: #008002;
+    font-size: calc(2.5rem + 2.5vw);
+    font-family: "Faculty Glyphic" !important;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+  }
+  #nameIcon {
+    color: #008080;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+  #slogan {
+    font-size: calc(1rem + 1vw);
+    font-family: "Faculty Glyphic", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+  }
+  #mission-section {
+    background-color: #008080;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .missionStatement {
+    font-size: 24px;
+    text-align: left;
+  }
+  #skills-section {
+    background-color: antiquewhite;
+  }
+  #project-section {
+    background-color: #008080;
+  }
+  #contact-section {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    background-color: antiquewhite;
+  }
+  #imagePadding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .contact-icon {
+    width: calc(50px + 1.5vw);
+    height: calc(50px + 1.5vw);
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    filter: brightness(0) invert(0);
+  }
+  .contact-icon:hover {
+    filter: brightness(0) invert(31%) sepia(60%) saturate(500%) hue-rotate(-20deg);
+    transform: scale(1.2);
+  }
+  .smokeText {
+    color: antiquewhite;
+  }
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    font-size: 18px;
+    color: #008002;
+  }
+  #project-section {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+  .cactusText {
+    color: #008002;
+    padding-bottom: 25px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #008002;
+  }
+  .skill-description {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
